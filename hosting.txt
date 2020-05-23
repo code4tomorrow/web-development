@@ -1,0 +1,22 @@
+Instructions: 
+(assuming you have already purchased a custom website domain)
+
+1. Create GitHub repo with code(make sure you name the repository "something".github.io and name your main html file ("index.html")
+
+2. Create gh-pages branch
+
+3. Add CNAME file with the name of the domain
+
+4. Go to the settings of the GitHub and enter your custom domain name inside
+
+5. go to godaddy.com - manage domains - manage DNS for your domain
+
+6. Add CNAME file
+ a. Host name: GitHub repository name(something.github.io)
+ b. Points to: domain name
+ c. TTL: Custom, 600 seconds
+
+7. Edit A File
+ a. Points to: 185.199.108.153
+
+8. Reload your domain and it should work
