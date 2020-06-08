@@ -1,0 +1,41 @@
+1. Change the background color for the webpage to a gradient
+
+2. Create a heading and add any type of animation to it
+
+
+ANSWERS:
+
+HTML:
+<!DOCTYPE html>
+<html>
+    <head>
+    	<link rel="stylesheet" type="text/css" href="FILE_PATH_NAME.css">
+    </head>
+    <body>
+    	<div class = "text">
+        	<h1 id = "title">Hello World</h1>
+        </div>
+    </body>
+</html>
+
+CSS: 
+
+
+html{
+    background: linear-gradient(to bottom, #00BFFF, #E0FFFF);
+}
+#title{
+	font-family: 'Raleway', sans-serif;
+    opacity: 0;
+    animation: fadein 2s;
+    animation-delay: 1.5s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
