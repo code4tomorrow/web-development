@@ -1,0 +1,26 @@
+1. Create a webpage with a heading "Hello World"
+
+2. Bold the text
+
+3. Add another heading that is smaller than the previous heading
+
+4. Italizcize the other heading
+
+5. Make sure your code is formatted correctly
+
+
+ANSWERS:
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<h1><b>Hello World</b></h1>
+		<h2><i>This is another heading</i></h2>
+	</body>
+</html>
+
+
