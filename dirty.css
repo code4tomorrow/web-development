@@ -1,6 +1,8 @@
-#test{
-    color:green;
-font-family: 'Times New Roman', Times, serif;
+#test {
+    color: green;
+    font-family: "Times New Roman", Times, serif;
 }
 
-p {color:meh;}
+p {
+    color: meh;
+}
