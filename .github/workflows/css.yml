@@ -1,0 +1,26 @@
+# Uses Lint Action: https://github.com/marketplace/actions/lint-action#supported-tools
+name: CSS Lint
+
+on: pull_request
+
+jobs:
+  lint-css:
+    name: Lint CSS with stylelint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Install stylelint
+        run: npm install --save-dev stylelint stylelint-config-standard
+        
+      - name: Run stylelint
+        uses: samuelmeuli/lint-action@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          # Enables stylelint on Lint Action
+          stylelint: true
+          # Enables auto fix
+          # (Lint Action will auto commit style fixes)
+          auto_fix: true

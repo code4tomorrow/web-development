@@ -1,0 +1,26 @@
+# Uses: https://github.com/marketplace/actions/html5-validator
+# Validates HTML5 and CSS (can turn off CSS if you want)
+name: HTML5 Validator
+
+on: pull_request
+
+jobs:
+  validate:
+    name: Validate HTML
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Run HTML5 Validator
+        uses: Cyb3r-Jak3/html5validator-action@v0.4.1
+        with:
+          root: .  # check all files
+          css: true  # also check CSS
+      
+      - name: Retrieve log file
+        uses: actions/upload-artifact@v2
+        with:
+          name: log
+          path: log.log

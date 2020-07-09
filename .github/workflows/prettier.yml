@@ -1,0 +1,27 @@
+# Uses: https://github.com/marketplace/actions/prettier-action
+name: Prettier
+
+on: pull_request
+
+jobs:
+  prettier:
+    name: Run Prettier
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      
+      - name: Prettify code
+        uses: creyD/prettier_action@v2.2
+        with:
+          ### Prettier Options ###
+          # --write prettifies directory/file given
+          # in this case, everything is prettified
+          # (if supported)
+          # --ignore-path is the path to the .prettierignore file
+          # (default is ./.prettierignore)
+          prettier_options: --write . --ignore-path ./.prettierignore
+          commit_message: 'Bot: Prettified code!'
