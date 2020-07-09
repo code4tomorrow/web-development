@@ -16,9 +16,10 @@ h1 {
     100% {
         width: 0;
     }
+
     20%,
     80% {
-        width: 27em; /* edit this when changing the length of the text*/
+        width: 27em; /* edit this when changing the length of the text */
     }
 }
 
@@ -27,6 +28,7 @@ h1 {
     100% {
         opacity: 0;
     }
+
     50% {
         opacity: 1;
     }
@@ -39,10 +41,12 @@ h1 {
     display: inline-block;
     position: relative;
     animation-duration: 10s;
-    animation-timing-function: steps(
-        60,
-        end
-    ); /* edit the number of steps  when changing the length of the text*/
+    animation-timing-function:
+        steps(
+            60,
+            end
+        ); /* edit the number of steps  when changing the length of the text */
+
     animation-iteration-count: infinite;
 }
 
