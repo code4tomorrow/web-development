@@ -2,34 +2,6 @@
 
 2. Create a link associated to the Wikipedia page that you got your image from
 
-3. Create a list of the things you ate today in an ordered list and display them below the image
+3. Create a list of the things you ate for breakfast today in an ordered list and display them below the image
 
-4. Create a text form so that an user can enter in his/her name
-
-
-<!DOCTYPE html>
-<html>
-	<head>
-	</head>
-	<body>
-		<img src = "image_file_path">
-		<p> Welcome to my website! The image above came from 
-			<a href="https://www.wikipedia.org/">this link</a>
-		. </p>
-
-	<ol>
-		<li> Apples </li>
-		<li> Bananas </li>
-		<li> Cereal </li>
-	</ol>
-
-
-<form >
-  <label >First name:</label><br>
-  <input type="text"><br>
-  <label >Last name:</label><br>
-  <input type="text"><br><br>
-  <input type="submit" >
-</form> 
-	</body>
-</html>
+4. Create a text form so that an user can enter in his/her name(don't forget submit)
