@@ -1,10 +1,10 @@
-/*make sure that dimensions of any box includes its border and padding, giving easy way to size elements*/
+/* make sure that dimensions of any box includes its border and padding, giving easy way to size elements */
 * {
     box-sizing: border-box;
 }
 
-.container{
-    background-color: #07575B;
+.container {
+    background-color: #07575b;
     height: 200px;
     margin: 10px;
     display: flex;
@@ -15,19 +15,21 @@
     align-content: center /*center, stretch, flex-start, flex-end, space-between, space- around*/;
 }
 
-.container > div{
-    background-color: #66A5AD;
+.container > div {
+    background-color: #66a5ad;
     color: aliceblue;
     text-align: center;
     padding: 20px;
     margin: 1px;
-    border: 3px #C4DFE6 solid;
-/*
+    border: 3px #c4dfe6 solid;
+
+    /*
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 150px;
 */
-/*
+
+    /*
     flex: initial;
     flex: auto;
     flex: none;
@@ -35,10 +37,10 @@
     flex: 1 1 150px;
 }
 
-#facebook{
+#facebook {
     font-size: 10px;
 }
 
 #apple{
-    
+
 }
