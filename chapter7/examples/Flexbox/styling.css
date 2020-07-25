@@ -9,10 +9,13 @@
     margin: 10px;
     display: flex;
     flex-wrap: nowrap /*wrap, nowrap, wrap-reverse*/;
-    flex-direction: row /*column-reverse, row, row-reverse, column, column-reverse*/;
-    justify-content: center /*center, flex-start, flex-end, space-around, space-between*/;
+    flex-direction: row
+        /*column-reverse, row, row-reverse, column, column-reverse*/;
+    justify-content: center
+        /*center, flex-start, flex-end, space-around, space-between*/;
     align-items: stretch /*center, flex-start, flex-end, stretch, baseline*/;
-    align-content: center /*center, stretch, flex-start, flex-end, space-between, space- around*/;
+    align-content: center
+        /*center, stretch, flex-start, flex-end, space-between, space- around*/;
 }
 
 .container > div {
@@ -41,6 +44,5 @@
     font-size: 10px;
 }
 
-#apple{
-
+#apple {
 }
