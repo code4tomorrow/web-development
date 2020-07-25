@@ -1,4 +1,4 @@
-1. Create a heading(center it horizontally) and change the font family
+1. Create a heading (center it horizontally) and change the font family
 
 2. Create a paragraph of text and change the font weight for it
 
