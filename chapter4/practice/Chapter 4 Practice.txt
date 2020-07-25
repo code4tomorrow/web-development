@@ -2,6 +2,6 @@
 
 2. Increase the text size
 
-3. Put the heading in a div element and draw a border around it(make sure it has a nice color)
+3. Put the heading in a div element and draw a border around it (make sure it has a nice color)
 
 4. Change the background color of the div to any color other than the text color
