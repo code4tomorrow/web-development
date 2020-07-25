@@ -41,7 +41,10 @@ h1 {
     display: inline-block;
     position: relative;
     animation-duration: 10s;
-    animation-timing-function: steps(60, end); /* edit the number of steps  when changing the length of the text */
+    animation-timing-function: steps(
+        60,
+        end
+    ); /* edit the number of steps  when changing the length of the text */
     animation-iteration-count: infinite;
 }
 
