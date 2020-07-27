@@ -4,4 +4,4 @@
 
 3. Create a list of the things you ate for breakfast today in an ordered list and display them below the image
 
-4. Create a text form so that an user can enter in his/her n (don't forget submit button)
+4. Create a text form so that an user can enter in his/her name (don't forget submit button)
