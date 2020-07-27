@@ -1,0 +1,5 @@
+1. Create a heading (center it horizontally) and change the font family
+
+2. Create a paragraph of text and change the font weight for it
+
+3. Move the paragraph to the center of the entire webpage
