@@ -20,7 +20,7 @@ jobs:
           css: true  # also check CSS
           # html5validator options
           # ignore certain exercises in Ch. 2
-          extra: --blacklist ./chapter2/practice/style.html ./chapter2/practice/Funky-OneLiner.html ./chapter2/solutions/Funky-OneLiner.html
+          extra: --ignore "./chapter2/practice/style.html" "./chapter2/practice/Funky-OneLiner.html" "./chapter2/solutions/Funky-OneLiner.html"
       
       - name: Retrieve log file
         uses: actions/upload-artifact@v2
