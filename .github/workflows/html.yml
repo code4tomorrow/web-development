@@ -19,8 +19,8 @@ jobs:
           root: .  # check all files
           css: true  # also check CSS
           # html5validator options
-          # ignore style.html exercise in Ch. 2
-          extra: --blacklist /Users/rebeccadang/Desktop/Code/code4tomorrow/web-development/chapter2/practice/style.html
+          # ignore certain exercises in Ch. 2
+          extra: --blacklist ./chapter2/practice/style.html ./chapter2/practice/Funky-OneLiner.html ./chapter2/solutions/Funky-OneLiner.html
       
       - name: Retrieve log file
         uses: actions/upload-artifact@v2
