@@ -1,0 +1,40 @@
+<!--
+    Google
+    Using everything you've learned so far, try to recreate
+    the google search page.
+    Hint: Use an online image of the Google Logo and a Form input
+    for the "search bar".
+    Note: Your search bar does not need to actually search.
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Practice</title>
+    <style>
+      #logo{
+        height: 92px;
+        width: 272px;/* Actual dimensions from Google*/
+        padding-top: 175px;
+      }
+      #container{
+        text-align: center;/*centers inside container*/
+        width: auto;
+      }
+      #search{
+        border-radius: 12px;/* rounds edges */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png">
+      <br /><br />
+      <form>
+          <input id="search" type="text" name="" placeholder="Search" size="50"><br /><br />
+          <input type="submit" value="Search">
+          <input type="submit" value="I'm Feeling Lucky">
+      </form>
+    </div>
+  </body>
+</html>
