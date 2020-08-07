@@ -2,7 +2,7 @@
 # Validates HTML5 and CSS (can turn off CSS if you want)
 name: HTML5 Validator
 
-on: pull_request
+on: [pull_request, push]
 
 jobs:
   validate:
