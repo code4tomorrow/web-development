@@ -1,7 +1,7 @@
 # Uses Lint Action: https://github.com/marketplace/actions/lint-action#supported-tools
 name: CSS Lint
 
-on: pull_request
+on: [pull_request, push]
 
 jobs:
   lint-css:
