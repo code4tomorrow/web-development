@@ -1,0 +1,10 @@
+Recreate the webpage shown in animals.png.
+This includes keeping line breaks and spacing
+the same as what's shown in the image.
+
+Make sure you change the title of the page
+along with adding the content and formatting.
+Also, be sure to use good HTML style (indents,
+etc.)!
+
+Hint: Notice the different heading sizes?
